@@ -5,6 +5,20 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+/* Paleta de cores 
+    Azul: #
+    Azul 2: #83DBE1
+    Azul 3: #00BAC6
+    Azul clarinho: #2F9AA8
+    Verde escuro: #083F4D
+    Verde musgo: #1A545C
+    Roxo: #8E00B9
+    Roxo escuro: #3E00CF 
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+     Pode ser a  Popins, sans-serif*
+ */
 
 body {
     width: 100%;
@@ -12,7 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0c0ce94d;
+    background: #3E00CF;
 }
 
 .container {
@@ -27,7 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fde3a7d7;
+    background-color: #083F4D;
     padding: 1rem;
 }
 
@@ -112,7 +126,7 @@ body {
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid #6c63ff;
+    outline: 1px solid ;
 }
 
 .input-box label,
@@ -208,19 +222,23 @@ body {
     }
 }
 
+span {
+    color: grey;
+}
 
-/* 
-Paleta de cores
-    Azul: #
-    Azul 2: #83DBE1
-    Azul 3: #00BAC6
-    Azul clarinho: #2F9AA8
-    Verde escuro: #083F4D
-    Verde musgo: #1A545C
-    Roxo: #8E00B9
-    Roxo escuro: #3E00CF 
 
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+:root   {
+   
+    --Azul2: #83DBE1;
+    --Azul3: #00BAC6;
+    --Azulclarinho: #2F9AA8;
+    --Verdeescuro: #083F4D;
+    --Verdemusgo: #1A545C;
+    --Roxo: #8E00B9;
+    --Roxoescuro: #3E00CF;
+}
+ 
 
-     Pode ser a  Popins, sans-serif*
-*/
+    /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+     Pode ser a  Popins, sans-serif* */
